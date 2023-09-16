@@ -78,5 +78,28 @@ html body p {
   display: flex;
   align-items: center;
   justify-content: center;
-  
+}
+.hello-imPauline {
+  color: var(--main-black, #181717);
+  text-align: left;
+  font: var(--heading-1, 500 60px/97.2% 'DM Sans', sans-serif);
+  position: relative;
+  width: 480px;
+  height: 199px;
+}
+.aboutMeparagraph {
+  color: var(--main-gray, #606060);
+  text-align: left;
+  font: var(--heading-2, 400 32px/117% 'DM Sans', sans-serif);
+  position: relative;
+  width: 575px;
+  height: 359px;
+}
+.aboutMe2ndparagraph {
+  color: var(--main-gray, #606060);
+  text-align: left;
+  font: var(--heading-2, 400 32px/117% 'DM Sans', sans-serif);
+  position: relative;
+  width: 575px;
+  height: 359px;
 }
