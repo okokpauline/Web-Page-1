@@ -29,10 +29,19 @@ html body p {
 .mainContentContainer {
   margin: 50px 100px;
 }
-.whoIAmText {
-  font-family: Arial, Helvetica, sans-serif;
+.introText {
+  text-align: left;
+  font: 700 44px/60px 'Helvetica', sans-serif;
+  position: relative;
+  margin-bottom: 40px;
 }
-.whoIAmText,
+.whoIAmText {
+  color: #21243d;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  font: 400 16px 
+  position: relative;
+}
 .aboutMeText {
   text-align: center;
   margin: 0px 200px
@@ -65,41 +74,9 @@ html body p {
   position: relative;
   z-index: 70;
 }
-.leftSideTitle {
-  color: #000;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-}
-.leftSideSubTitle {
-  color: #4045c3;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-  margin-top: 15px;
-}
-.leftSideCaption {
-  color: #282727;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 200;
-  line-height: normal;
-  margin-top: 40px;
-}
-.leftSideParagraph {
-  color: #000;
-  font-family: Lato;
-  font-size: 28px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: normal;
-  margin-top: 50px;
-}
-.rightSideName {
-  text-align: center;
+.sectionContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
 }
